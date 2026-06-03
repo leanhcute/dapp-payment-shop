@@ -1,0 +1,7 @@
+node_modules/
+.env
+my-wallet.json
+shop-wallet.json
+confirmed-transactions.json
+.DS_Store
+*.log

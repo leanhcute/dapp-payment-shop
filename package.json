@@ -1,0 +1,16 @@
+{
+  "name": "dapp-payment-shop",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "qrcode": "^1.5.3",
+    "axios": "^1.6.0",
+    "dotenv": "^16.0.0",
+    "@circle-fin/developer-controlled-wallets": "^1.0.0"
+  }
+}

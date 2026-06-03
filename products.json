@@ -1,0 +1,44 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Áo thun cao cấp",
+      "price": 10,
+      "description": "Áo thun cotton 100%, form rộng",
+      "image": "https://via.placeholder.com/150",
+      "stock": 50
+    },
+    {
+      "id": 2,
+      "name": "Mũ bảo hiểm",
+      "price": 5,
+      "description": "Mũ thời trang unisex",
+      "image": "https://via.placeholder.com/150",
+      "stock": 30
+    },
+    {
+      "id": 3,
+      "name": "Quần jean",
+      "price": 25,
+      "description": "Quần jean rách gối phong cách",
+      "image": "https://via.placeholder.com/150",
+      "stock": 20
+    },
+    {
+      "id": 4,
+      "name": "Giày thể thao",
+      "price": 35,
+      "description": "Giày chạy bộ nhẹ êm",
+      "image": "https://via.placeholder.com/150",
+      "stock": 15
+    },
+    {
+      "id": 5,
+      "name": "bàn phím ",
+      "price": 5,
+      "description": "hàng khuyến mãi",
+      "image": "https://via.placeholder.com/150",
+      "stock": 100
+    }
+  ]
+}
