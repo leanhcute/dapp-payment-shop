@@ -21,6 +21,11 @@ dotenv.config();
 const app = express();
 app.use(express.json());
 app.use(express.static('public'));
+// API: Lấy địa chỉ ví Admin (cho frontend)
+app.get('/api/admin-wallet', (req, res) => {
+  const adminWallet = process.env.ADMIN_WALLET_ADDRESS || '';
+  res.json({ adminWallet: adminWallet.toLowerCase() });
+});
 
 // ========== ĐỌC SẢN PHẨM ==========
 let products = [];
